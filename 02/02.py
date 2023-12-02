@@ -3,7 +3,7 @@ import re
 if __name__ == "__main__":
   power_sum = 0
   
-  with open("02/input.txt", "r") as f:
+  with open("input.txt", "r") as f:
     for line in f.readlines():
       game, pulls = line.split(':')
       game = int(re.search("[0-9]+", game).group(0))
